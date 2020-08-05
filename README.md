@@ -9,6 +9,8 @@ Some technology I enjoy working with include AngularJS, Go.
 - Tinkering with interactions on <a href="https://twitter.com/HanChih"> Twitter</a> 🏓
 - Sharing updates on <a href="https://www.linkedin.com/in/chih-han-liu-14a56422/">LinkedIn</a> 💼
 
+[![top lang](https://github-readme-stats.vercel.app/api/top-langs/?username=asccclass&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+
 
 
 
