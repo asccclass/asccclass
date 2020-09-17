@@ -1,0 +1,17 @@
+name: Latest stack overflow activity
+on:
+  schedule:
+    # Runs every 5 minutes
+    - cron: '*/30 * * * *'
+
+jobs:
+  update-readme-with-stack-overflow:
+    name: Update this repo's README with latest activity from justjii.justdrink.com.tw
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          comment_tag_name: "justjii's blog"
+          commit_message: "Updated readme with the latest justjii blog posts"
+          feed_list: "http://34.80.97.39/feed/"
